@@ -62,10 +62,10 @@ html {
 
 body {
   background-image: url("/img/challenge.png");
-  background-size: cover; /* Cambia a 'cover' para cubrir el área sin estirarse */
-  background-position: top center; /* Cambia la posición para que empiece desde la parte superior */
+  background-size: cover; 
+  background-position: top center; 
   background-repeat: no-repeat;
-  height: 100vh; /* Cambia a 100vh para ajustar la altura del fondo */
+  height: 100vh; 
   margin: 0;
   overflow-x: hidden;
 }
@@ -164,9 +164,9 @@ body {
 }
 
 .btn_iniciar {
-  display: flex; /* Utiliza Flexbox para alinear el texto y el ícono */
-  align-items: center; /* Centra verticalmente el texto y el ícono */
-  justify-content: space-between; /* Espacio entre el texto y el ícono */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
   background-color: #8b1d2c;
   color: #ffffff;
   font-size: 16px;
@@ -185,7 +185,7 @@ body {
 }
 
 #Iniciar {
-  display: flex; /* Activa Flexbox */
+  display: flex; 
   justify-content: center; /* Centra el botón horizontalmente */
 }
 
@@ -202,20 +202,20 @@ body {
 }
 
 .icono-group.left {
-  margin-right: 10px; /* Espacio entre el grupo de iconos y el botón */
+  margin-right: 10px;
 }
 
 .icono-group.right {
-  margin-left: 10px; /* Espacio entre el grupo de iconos y el botón */
+  margin-left: 10px; 
 }
 
 .icono {
-  margin: 0 160px; /* Espacio entre los iconos */
+  margin: 0 160px; 
 }
 
 .icono img {
-  width: 40px; /* Ajusta el tamaño de los iconos */
-  height: 40px; /* Ajusta el tamaño de los iconos */
+  width: 40px; 
+  height: 40px; 
 }
 
 /*nosotros seccion*/
@@ -225,13 +225,13 @@ body {
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
-  background-color: rgba(186, 24, 27, 0.15); /* 15% de opacidad */
+  background-color: rgba(186, 24, 27, 0.15); 
 }
 
 .nosotros-info {
-  display: flex; /* Activa Flexbox */
-  align-items: center; /* Alinea verticalmente el contenido si es necesario */
-  justify-content: space-between; /* Separa el texto y la imagen */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
 }
 
 .nosotros-texto {
@@ -244,6 +244,6 @@ body {
 }
 
 .nosotros-texto strong {
-  color: #ba181b; /* Cambia el color a rojo */
+  color: #ba181b; 
   font-weight: bold;
 }
