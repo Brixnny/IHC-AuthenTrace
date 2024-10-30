@@ -1,0 +1,305 @@
+htmlsoporte {
+  height: 100%;
+  width: 100%;
+}
+
+.topheader {
+  position: fixed;
+  top: 0; /*Asegúrate de que esté definido */
+  background-color: #ffd0d0;
+  width: 97.5%;
+  z-index: 100;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambia si necesitas alinear el logo */
+  padding: 0px 70px;
+  font-family: "Inter", sans-serif;
+}
+
+.logo img {
+  width: 300px; /* Ajusta el ancho deseado */
+  height: auto; /* Mantén la proporción original de la imagen */
+  margin-right: 0;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  font-weight: 400;
+  color: #161a1d;
+}
+
+.menu-horizontal li a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+.menu-horizontal li a:hover {
+  color: #ba181b;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgb(239, 236, 236);
+}
+
+.menu-vertical li a {
+  display: block;
+  color: black;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+}
+
+.menu-vertical li:hover {
+  background-color: black;
+}
+
+/* Ajustes para el body */
+body {
+  background-image: url("/img/soporte.png");
+  background-size: cover; /* Cambia a 'cover' para cubrir el área sin estirarse */
+  background-position: top center; /* Cambia la posición para que empiece desde la parte superior */
+  background-repeat: no-repeat;
+  height: 100vh; /* Cambia a 100vh para ajustar la altura del fondo */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.ayuda-title {
+  font-size: 24px;
+  margin-top: 130px;
+  color: #ffff;
+  text-align: center;
+}
+
+.ayuda-description {
+  margin-top: 30px;
+  color: #ffff;
+  text-align: center;
+  font-size: 24;
+}
+
+/* Formulario */
+.container-inscripcion {
+  width: 35%;
+  padding: 2em;
+  background-color: #d9d9d9;
+  position: absolute;
+  right: 0; /* Alinea el formulario a la derecha de la pantalla */
+  margin-top: 0px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Opcional: Añadir un color de fondo para el select */
+select {
+  background-color: #fff; /* Color de fondo */
+}
+
+/* Estilos adicionales para el select */
+select:focus {
+  border-color: #338af3; /* Color de borde al enfocar */
+  outline: none; /* Elimina el contorno predeterminado */
+}
+
+/* Botones */
+.btn_submit {
+  display: block;
+  width: 100%;
+  padding: 0.75em;
+  border: none;
+  background-color: #ba181b;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn_submit:hover {
+  background-color: #c97575;
+}
+
+/*soporte seccion*/
+
+.soporte-section {
+  padding: 50px;
+  background-color: #ba181b;
+  margin-top: 0;
+}
+
+.soporte-container {
+  display: flex; /* Aplica flexbox a este contenedor */
+  align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+.iconos {
+  display: flex;
+  flex-direction: column; /* Coloca las imágenes en columna */
+  margin-right: 60px; /* Espacio entre iconos y soporte */
+}
+
+.iconos img {
+  margin: 65px 0; /* Espacio entre las imágenes */
+  margin-left: 40px;
+}
+
+.soporte-item {
+  width: 25%; /* Ajusta el ancho según sea necesario */
+  background-color: #660708;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 15px 0; /* Espacio vertical entre los recuadros */
+  display: block; /* Mantiene el diseño en bloque */
+  transition: transform 0.3s ease;
+}
+
+.soporte-item:hover {
+  transform: translateY(-5px); /* Animación al pasar el ratón */
+}
+
+.soporte-item i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #ba181b; /* Color rojo para los íconos */
+}
+
+.soporte-item h3 {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+}
+
+.soporte-item p {
+  font-size: 0.75rem;
+  color: #ffffff;
+  font-family: "Inter";
+}
+
+/*footer seccion*/
+.footer-section {
+  background: #d9d9d9;
+  padding: 25px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.footer-column {
+  flex: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*navegation section/*/
+
+.nav_actions {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.account-container a {
+  text-decoration: none;
+}
+
+.account-container,
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  width: 250px;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: width 0.3s ease;
+  margin-right: 10px;
+}
+
+.search-container input:focus {
+  width: 350px;
+  outline: none;
+  border-color: #440000;
+}
+
+.account-container i,
+.search-container i,
+.carrito-container i {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.account-container i:hover,
+.search-container i:hover,
+.carrito-container i:hover {
+  color: #f30035;
+}
+
+/*barras button/*/
+
+.abrir-menu {
+  display: none;
+}
+.menu-toggle {
+  display: none;
+}
