@@ -11,7 +11,7 @@ html {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center; /*flex-start para alinear mas al logo */
+  justify-content: center; 
   padding: 0px 20px;
   font-family: "Inter", sans-serif;
 }
@@ -72,10 +72,10 @@ html {
 
 body {
   background-image: url("/img/challenge.png");
-  background-size: cover; /* Cambia a 'cover' para cubrir el área sin estirarse */
-  background-position: top center; /* Cambia la posición para que empiece desde la parte superior */
+  background-size: cover; 
+  background-position: top center; 
   background-repeat: no-repeat;
-  height: 100vh; /* Cambia a 100vh para ajustar la altura del fondo */
+  height: 100vh; 
   margin: 0;
   overflow-x: hidden;
 }
@@ -111,7 +111,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  min-height: 99vh; /* Mantén esto para ocupar al menos la altura de la ventana */
+  min-height: 99vh; 
   padding: 70px 70px;
   text-align: left;
 }
@@ -168,8 +168,8 @@ body {
 }
 
 .logo img {
-  width: 300px; /* Ajusta el ancho deseado */
-  height: auto; /* Mantén la proporción original de la imagen */
+  width: 300px; 
+  height: auto; 
 }
 
 /* servicios seccion  */
@@ -198,9 +198,9 @@ body {
 }
 
 .btn_iniciar {
-  display: flex; /* Utiliza Flexbox para alinear el texto y el ícono */
-  align-items: center; /* Centra verticalmente el texto y el ícono */
-  justify-content: space-between; /* Espacio entre el texto y el ícono */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
   background-color: #8b1d2c;
   color: #ffffff;
   font-size: 16px;
@@ -214,13 +214,13 @@ body {
 .btn-icon {
   width: 20px;
   height: 20px;
-  margin-left: 8px; /* Espacio entre el texto y el ícono */
+  margin-left: 8px; 
   font-size: 20px;
 }
 
 #Iniciar {
-  display: flex; /* Activa Flexbox */
-  justify-content: center; /* Centra el botón horizontalmente */
+  display: flex; 
+  justify-content: center; 
 }
 
 /* Nuevos estilos para los iconos alrededor del botón */
@@ -236,20 +236,20 @@ body {
 }
 
 .icono-group.left {
-  margin-right: 10px; /* Espacio entre el grupo de iconos y el botón */
+  margin-right: 10px; 
 }
 
 .icono-group.right {
-  margin-left: 10px; /* Espacio entre el grupo de iconos y el botón */
+  margin-left: 10px; 
 }
 
 .icono {
-  margin: 0 160px; /* Espacio entre los iconos */
+  margin: 0 160px;
 }
 
 .icono img {
-  width: 40px; /* Ajusta el tamaño de los iconos */
-  height: 40px; /* Ajusta el tamaño de los iconos */
+  width: 40px; 
+  height: 40px; 
 }
 
 /*nosotros seccion*/
@@ -259,13 +259,13 @@ body {
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
-  background-color: rgba(186, 24, 27, 0.15); /* 15% de opacidad */
+  background-color: rgba(186, 24, 27, 0.15); 
 }
 
 .nosotros-info {
-  display: flex; /* Activa Flexbox */
-  align-items: center; /* Alinea verticalmente el contenido si es necesario */
-  justify-content: space-between; /* Separa el texto y la imagen */
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
 }
 
 .nosotros-texto {
@@ -278,21 +278,21 @@ body {
 }
 
 .nosotros-texto strong {
-  color: #ba181b; /* Cambia el color a rojo */
+  color: #ba181b; 
   font-weight: bold;
 }
 
 /*soporte seccion*/
 
 .soporte-section {
-  text-align: center; /* Centra todo el contenido en la sección */
+  text-align: center; 
   padding: 20px;
   background-color: #ffff;
 }
 
 .soporte-titulo {
   font-size: 2rem;
-  margin-bottom: 40px; /* Espacio entre el título y los recuadros */
+  margin-bottom: 40px; 
   margin-top: 0 auto;
   color: #161a1d;
   font-family: "Inter", sans-serif;
@@ -301,24 +301,24 @@ body {
 .soporte-item {
   width: 20%;
   background-color: #ffff;
-  text-decoration: none; /* Elimina el subrayado */
+  text-decoration: none; 
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  margin: 0 15px; /* Espaciado horizontal entre recuadros */
-  display: inline-block; /* Hace que los items se comporten como elementos en línea */
+  margin: 0 15px; 
+  display: inline-block; 
   transition: transform 0.3s ease;
 }
 
 .soporte-item:hover {
-  transform: translateY(-5px); /* Animación al pasar el ratón */
+  transform: translateY(-5px); 
 }
 
 .soporte-item i {
   font-size: 50px;
   margin-bottom: 15px;
-  color: #ba181b; /* Color rojo para los íconos */
+  color: #ba181b; 
 }
 
 .soporte-item h3 {
@@ -337,8 +337,8 @@ body {
 
 .soporte-seguridad {
   font-size: 2rem;
-  color: #ba181b; /* Color rojo */
-  margin-top: 50px; /* Espacio para separarlo de los recuadros */
+  color: #ba181b;
+  margin-top: 50px; 
   font-family: "Advent Pro", sans-serif;
   font-weight: bold;
 }
