@@ -1,0 +1,193 @@
+<!DOCTYPE htmlsoporte>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Soporte</title>
+    <link rel="stylesheet" href="stylesoporte.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=M+PLUS+Rounded+1c&family=Advent+Pro&family=Afacad&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon@2.5.0/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <!-- MENU -->
+    <nav class="topheader">
+      <a href="index.html" class="logo">
+        <img height="80" width="120" src="img/logo2.png" alt="" />
+      </a>
+
+      <ul class="menu-horizontal">
+        <li>
+          <a href="index.html" class="home-link">HOME</a>
+        </li>
+        <li>
+          <a href="index.html#Servicios">SERVICIOS</a>
+        </li>
+
+        <li>
+          <a href="index.html#Nosotros">NOSOTROS</a>
+        </li>
+
+        <li>
+          <a href="index.html#Soporte">SOPORTE</a>
+        </li>
+      </ul>
+
+      <div class="nav_actions">
+        <div class="search-container">
+          <input type="search" placeholder="Buscar" />
+          <i class="ri-search-line" id="search_btn"></i>
+        </div>
+        <div class="account-container">
+          <a href="login.html">
+            <i class="ri-account-circle-line" id="account_btn"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <h3 class="ayuda-title">¿Necesitas Ayuda?</h3>
+    <p class="ayuda-description">
+      Envía este formulario para obtener más información sobre la solución de
+      firma electrónica que forma parte de una plataforma de automatización
+      empresarial integral que incluye:
+    </p>
+
+    <div class="container-inscripcion" id="Inscripcion">
+      <form name="form" method="post" action="">
+        <fieldset>
+          <legend>Contactar con Soporte</legend>
+          <ul>
+            <li>
+              <input type="text" name="name" size="30" placeholder="Nombre*" />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="lastname"
+                size="30"
+                placeholder="Apellido*"
+              />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="correo"
+                size="30"
+                placeholder="Correo Electrónico de Empresa*"
+              />
+            </li>
+            <li>
+              <select name="pais" id="pais" class="pais-select">
+                <option value="">Seleccionar País*</option>
+                <option value="PE" data-icon="🇵🇪">Perú</option>
+                <option value="US" data-icon="🇺🇸">Estados Unidos</option>
+                <option value="ES" data-icon="🇪🇸">España</option>
+                <option value="AR" data-icon="🇦🇷">Argentina</option>
+                <!-- Agrega más países aquí -->
+              </select>
+            </li>
+            <li>
+              <input
+                type="text"
+                name="telefono"
+                size="30"
+                placeholder="Número de Teléfono*"
+              />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="empresa"
+                size="30"
+                placeholder="Nombre de la Empresa*"
+              />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="titulo"
+                size="30"
+                placeholder="Título del Trabajo*"
+              />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="opcional"
+                size="30"
+                placeholder="Preguntas o comentarios (Opcional)*"
+              />
+            </li>
+            <li>
+              <select name="tamaño" id="tamaño" class="tamaño-select">
+                <option value="">Tamaño de la Empresa*</option>
+                <option value="PE" data-icon="🇵🇪">Pequeña</option>
+                <option value="US" data-icon="🇺🇸">Grande</option>
+              </select>
+            </li>
+            <li>
+              <input type="checkbox" name="noticias" value="yes" />
+              Interesados en API
+            </li>
+          </ul>
+          <input type="submit" class="btn_submit" value="Enviar Formulario" />
+          <p>
+            Al hacer clic en "Enviar Formulario" acepto recibir comunicaciones
+            de soporte de AuthenTrace de acuerdo con los Términos de servicio y
+            el Aviso de privacidad ACTUALIZADO.
+          </p>
+        </fieldset>
+      </form>
+    </div>
+
+    <section class="soporte-section">
+      <div class="soporte-container">
+        <div class="iconos">
+          <a href="" class="iconos">
+            <img height="100" width="140" src="img/centrodeayuda.png" alt="" />
+            <img height="100" width="140" src="img/IA.png" alt="" />
+          </a>
+        </div>
+
+        <div id="Soporte">
+          <a href="" class="soporte-item">
+            <i class="ri-team-fill"></i>
+            <h3>Comunicarse con IA ROTROT</h3>
+            <p>
+              ¿Quieres obtener mas informacion? o ¿No sabes como hacer algo?
+            </p>
+            <p>Comunicarse con IA ROTROT</p>
+          </a>
+
+          <a href="" class="soporte-item">
+            <i class="ri-question-fill"></i>
+            <h3>Centro de ayuda</h3>
+            <p>
+              ¿Necesitas ayuda usando la funcionalidad de signNow? Visita el
+              Centro de Ayuda y echa un vistazo a nuestros útiles artículos.
+            </p>
+            <p>Ir al centro de ayudas</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-column">
+          <p>Copyright ©2024 AuthenTrace</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
